@@ -10,7 +10,9 @@ header {
     position: fixed;
     left: 50%;
     transform:translate(-50%);        /*(좀더 알아보기)*/
-    color:darkgray;
+}
+a:link { 
+    color: darkgray; 
 }
 a:visited {
     color: darkgray;
