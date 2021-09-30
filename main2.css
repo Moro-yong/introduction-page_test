@@ -1,0 +1,133 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* -----HEADER----- */
+header {
+    position: fixed;
+    left: 50%;
+    transform:translate(-50%);        /*(좀더 알아보기)*/
+    color:darkgray;
+}
+a:visited {
+    color: darkgray;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+nav ul li {
+    margin: 0 20px 0;
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+/* -----SECTION1----- */
+.section1 {
+    background: #ECEDEF;
+}
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.8;
+}
+.section1-title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.section1 img {
+    margin: 100px 0 0 0;
+    height: 40%;
+}
+
+/* -----SECTION2----- */
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+    text-align: center;
+}
+.section2-title .title {
+    font-weight: 700;
+    font-size: 50px;
+}
+.section2 img {
+    max-width:100%;
+    padding-right: 80px;
+}
+
+/* -----SECTION3----- */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+.min {
+    margin: 0 40px 0;
+    text-align: center;
+}
+.min p {
+    margin: 40px 0 100px;
+}
+.section3 .title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 20px 0 20px
+}
+.container-img {
+    width: 400px;
+    height: 400px;
+    background: darkcyan;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container-img img {
+    position: relative;
+    right: 180px;
+}
+.section3 .img-text p {
+    width: 400px;
+    margin: 0 40px 0;
+    text-align: center;
+}
+.bold {
+    font-size: 20px;
+}
+/* -----FOOTER----- */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 400px;
+    background: #ECEDEF;
+}
+footer .p1 {
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 600;
+}
