@@ -11,11 +11,8 @@ header {
     left: 50%;
     transform:translate(-50%);        /*(좀더 알아보기)*/
 }
-a:link { 
+a { 
     color: darkgray; 
-}
-a:visited {
-    color: darkgray;
 }
 nav ul {
     display: flex;
@@ -70,13 +67,9 @@ nav ul li {
 .section2 img {
     max-width:100%;
     padding-right: 80px;
+    margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
-    .section2 {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 
 /* -----SECTION3----- */
 .section3 {
@@ -124,6 +117,8 @@ nav ul li {
 .bold {
     font-size: 20px;
 }
+
+
 /* -----FOOTER----- */
 footer {
     display: flex;
@@ -138,4 +133,20 @@ footer .p1 {
     font-size: 24px;
     line-height: 1.6;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img {
+        width: 300px;
+        height: 300px;
+        background: darkcyan;
+        border-radius: 50%;
+        overflow: hidden;
+    }
 }
